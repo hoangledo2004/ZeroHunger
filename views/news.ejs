@@ -1,0 +1,174 @@
+<%- include('./partials/header.ejs') %>
+<!-- copy from home -->
+
+<section class="sec3">
+  <div class="upper bg-blue">
+    <div class="sec-header">ĐỜI SỐNG</div>
+    <div class="sec-sologan">
+      Chương trình gây quỹ từ thiện "Vì một niềm tin về hạnh phúc" "Vì một niềm
+      tin về hạnh phúc"
+    </div>
+  </div>
+  <div class="sec3-content">
+    <div class="row flex-st">
+      <% for( let i = 0; i < 3; i++ ) { %>
+      <div class="col-3">
+        <div class="sec3-img grow">
+          <a href="/news/<%= result[i].id %> ">
+            <img src="<%= result[i].thumb_nail %> " alt="anh 1" />
+            <div class="sec3-img-hover">
+              <div class="sec3-img-header"><%= result[i].header %> </div>
+              <div class="sec3-img-content">
+                <div class="row">
+                  <div class="sec3-like">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    Theresa webb like this
+                  </div>
+                  <div class="sec3-cmt">
+                    <i class="fa-regular fa-message"></i>
+                    1 comment
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="sec3-lower">
+          <a href="/news/<%= result[i].id %> ">
+            <div class="sec3-header grow"><%= result[i].header %> </div>
+          </a>
+          <div class="sec3-text">
+           <%= result[i].preview_text %> 
+          </div>
+          <a href="/news/<%= result[i].id %> ">
+            <div class="sec3-btn grow">See more...</div>
+          </a>
+        </div>
+      </div>
+      <% } %>
+    </div>
+    <div class="row flex-st">
+      <% for( let i = 3; i < 6; i++ ) { %>
+      <div class="col-3">
+        <div class="sec3-img grow">
+          <a href="/news/<%= result[i].id %> ">
+            <img src="<%= result[i].thumb_nail %> " alt="anh 1" />
+            <div class="sec3-img-hover">
+              <div class="sec3-img-header"><%= result[i].header %> </div>
+              <div class="sec3-img-content">
+                <div class="row">
+                  <div class="sec3-like">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    Theresa webb like this
+                  </div>
+                  <div class="sec3-cmt">
+                    <i class="fa-regular fa-message"></i>
+                    1 comment
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="sec3-lower">
+          <a href="/news/<%= result[i].id %> ">
+            <div class="sec3-header grow"><%= result[i].header %> </div>
+          </a>
+          <div class="sec3-text">
+           <%= result[i].preview_text %> 
+          </div>
+          <a href="/news/<%= result[i].id %> ">
+            <div class="sec3-btn grow">See more...</div>
+          </a>
+        </div>
+      </div>
+      <% } %>
+    </div>
+  </div>
+</section>
+<section class="sec3">
+  <div class="upper bg-blue">
+    <div class="sec-header">SỨC KHỎE</div>
+    <div class="sec-sologan">
+      Chương trình gây quỹ từ thiện "Vì một niềm tin về hạnh phúc" "Vì một niềm
+      tin về hạnh phúc"
+    </div>
+  </div>
+  <div class="sec3-content">
+   <div class="row flex-st">
+      <% for( let i = 6; i < 9; i++ ) { %>
+      <div class="col-3">
+        <div class="sec3-img grow">
+          <a href="/news/<%= result[i].id %> ">
+            <img src="<%= result[i].thumb_nail %> " alt="anh 1" />
+            <div class="sec3-img-hover">
+              <div class="sec3-img-header"><%= result[i].header %> </div>
+              <div class="sec3-img-content">
+                <div class="row">
+                  <div class="sec3-like">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    Theresa webb like this
+                  </div>
+                  <div class="sec3-cmt">
+                    <i class="fa-regular fa-message"></i>
+                    1 comment
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="sec3-lower">
+          <a href="/news/<%= result[i].id %> ">
+            <div class="sec3-header grow"><%= result[i].header %> </div>
+          </a>
+          <div class="sec3-text">
+           <%= result[i].preview_text %> 
+          </div>
+          <a href="/news/<%= result[i].id %> ">
+            <div class="sec3-btn grow">See more...</div>
+          </a>
+        </div>
+      </div>
+      <% } %>
+    </div>
+    <div class="row flex-st">
+      <% for( let i = 9; i < 12; i++ ) { %>
+      <div class="col-3">
+        <div class="sec3-img grow">
+          <a href="/news/<%= result[i].id %> ">
+            <img src="<%= result[i].thumb_nail %> " alt="anh 1" />
+            <div class="sec3-img-hover">
+              <div class="sec3-img-header"><%= result[i].header %> </div>
+              <div class="sec3-img-content">
+                <div class="row">
+                  <div class="sec3-like">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    Theresa webb like this
+                  </div>
+                  <div class="sec3-cmt">
+                    <i class="fa-regular fa-message"></i>
+                    1 comment
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="sec3-lower">
+          <a href="/news/<%= result[i].id %> ">
+            <div class="sec3-header grow"><%= result[i].header %> </div>
+          </a>
+          <div class="sec3-text">
+           <%= result[i].preview_text %> 
+          </div>
+          <a href="/news/<%= result[i].id %> ">
+            <div class="sec3-btn grow">See more...</div>
+          </a>
+        </div>
+      </div>
+      <% } %>
+    </div>
+  </div>
+</section>
+<%- include('./partials/footer.ejs') %>

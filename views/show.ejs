@@ -1,0 +1,33 @@
+<%- include('./partials/header.ejs') %>
+<!-- <div class="banner">
+      <img src="/img/show-banner.png" alt="banner" />
+    </div> -->
+<div class="content plr-10p">
+  <!-- header -->
+  <div class="content-header p-20"><%= baiviet.header %></div>
+
+  <!-- preview text -->
+  <div class="content-text plr-10p"><%= baiviet.preview_text %></div>
+
+  <!-- anh 1 -->
+  <!-- <div class="content-img plr-10p">
+    <img src="<%= baiviet.img[0] %> " alt="img" />
+  </div> -->
+
+  <!-- text 1 -->
+  <!-- <div class="content-text plr-10p mb-30"><%= baiviet.text[0] %></div> -->
+
+  <!-- anh n -->
+  <% length = baiviet.img.length > baiviet.text.length ? baiviet.img.length :
+  baiviet.text.length%> <% for( let i = 0; i < length; i++ ) { %> <% if
+  (i < baiviet.img.length) { %>
+  <div class="content-img plr-10p">
+    <img src="<%= baiviet.img[i] %> " alt="img" />
+  </div>
+  <% } %>
+
+  <div class="content-text plr-10p mb-30"><%= baiviet.text[i] %></div>
+
+  <% } %> <%- include('./partials/fund-form.ejs') %>
+</div>
+<%- include('./partials/footer.ejs') %>

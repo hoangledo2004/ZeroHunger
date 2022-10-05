@@ -1,0 +1,106 @@
+.sup-banner {
+  height: 80vh;
+  background: url(../img/support-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sup-content {
+  position: absolute;
+  bottom: 0;
+}
+
+.sup-header {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 52px;
+  text-align: center;
+  padding: 36px 284px;
+  background: rgba(228, 182, 52, 0.68);
+}
+
+.sup-form-ctrl {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+  background: #ffffff;
+  border-radius: 13px;
+}
+
+.supporter-form label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.supporter-form input,
+textarea {
+  background: #ffffff;
+  border: 1px solid #e4b634;
+  border-radius: 13px;
+  width: 100%;
+  resize: none;
+}
+.supporter-form input,
+textarea:focus {
+  color: #000000;
+}
+.sup-authen {
+  margin-top: 120px;
+  width: 35%;
+}
+.sup-authen input {
+  text-transform: uppercase;
+}
+.sup-authen-code {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 52px;
+  letter-spacing: 0.175em;
+  color: #000000;
+}
+
+.sup-btn {
+  width: 20%;
+}
+
+.sup-aside-btn {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 59px;
+  text-align: center;
+}
+.sup-aside-btn div {
+  border-radius: 24px;
+}
+.sup-aside-btn div:hover {
+  background-color: #29abe2 !important  ;
+}
+.sup-aside-program {
+  width: 100%;
+}
+
+.sup-aside-program-header {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 59px;
+  color: #000000;
+}
+.sup-aside-program-content {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 59px;
+  color: #000000;
+}
+.sup-aside li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #E4B634; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  /* height: 2em; */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  font-size: 2em;
+}

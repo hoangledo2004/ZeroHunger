@@ -1,0 +1,140 @@
+.map-header {
+  padding: 12px;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 52px;
+  text-align: center;
+  color: white;
+}
+.map-content {
+  position: relative;
+}
+.che-map{
+  display: block;
+  height: 67px;
+  background-color: #f5f5f5;
+  line-height: 67px;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0;right: 0;
+}
+.google-map {
+  width: 100%;
+  height: 680px;
+}
+
+.map-search-bar {
+  padding: 23px 106px;
+}
+.map-search-bar i {
+  font-size: 26px;
+}
+.map-search-box {
+  background: #f5f5f5;
+  border-radius: 6px;
+}
+.map-search-bar .fa-magnifying-glass::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 50px;
+  background-color: #c9c9c9;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+.map-search-bar .map-btn {
+  padding: 23px 36px;
+}
+
+.map-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.map-search-box input {
+  border: none;
+  color: #000;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 23px;
+  background: #f5f5f5 !important;
+}
+.map-search-box input:focus,
+input:active {
+  background: #f5f5f5 !important;
+  color: #000 !important;
+  outline: none;
+}
+
+.map {
+  /* height: 100vh; */
+  position: relative;
+}
+
+.map-icon {
+  position: absolute;
+  width: 300px;
+  height: 130px;
+  box-shadow: 0 0 5px black;
+  top: 30px;left: 30px;
+}
+.map-popup {
+display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.68);
+}
+.map-modal {
+  position: absolute;
+  top: 2%;
+  bottom: 2%;
+  left: 20%;
+  right: 20%;
+  margin: auto;
+  padding: 0 80px;
+  background: #ffffff;
+}
+
+.map-modal-header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+}
+.map-modal-exit {
+  position: absolute;
+  right: 0;
+}
+
+.map-modal-news-header {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.map-modal-img {
+  width: 70%;
+}
+
+.map-modal-news ul {
+  display: inline-block;
+}
+
+.map-modal-news li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+}

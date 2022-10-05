@@ -1,0 +1,272 @@
+<%- include('./partials/header.ejs') %>
+<section id="sec1">
+  <div class="sec1-content">
+    <!-- <p class="sologan">Giving Love And Receiving Smiles</p> -->
+    <p class="sec1-header1">Zero Hunger</p>
+    <!-- <p class="sec1-header2">Help</p> -->
+    <p class="text">
+      Xóa đói, bảo đảm an ninh lương thực, cải thiện dinh dưỡng và thúc đẩy phát
+      triển nông nghiệp bền vững
+    </p>
+    <button class="sec1-btn grow">ĐĂNG KÝ NGAY</button>
+  </div>
+</section>
+<section class="sec2">
+  <div class="row text-center">
+    <div class="col-3">
+      <div class="row flex-st">
+        <div class="sec2-img">
+          <!-- <img src="/img/fundraise.png" alt="FUNDRAISE" /> -->
+        </div>
+        <div class="sec2-content">
+          <div class="sec2-content-header">829 triệu</div>
+          <div class="sec2-content-text">người chết đói</div>
+          <!-- <div class="sec2-btn grow">Chương Trình</div> -->
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="row flex-st">
+        <div class="sec2-img">
+          <!-- <img src="/img/volunteer.png" alt="volunteer" /> -->
+        </div>
+        <div class="sec2-content">
+          <div class="sec2-content-header">25%</div>
+          <div class="sec2-content-text">
+            trẻ em suy dinh dưỡng có cơ hội tiếp cận điều kiện sống tốt hơn
+          </div>
+          <!-- <div class="sec2-btn grow">Chương Trình</div> -->
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="row flex-st">
+        <div class="sec2-img">
+          <!-- <img src="/img/donate.png" alt="DONATE" /> -->
+        </div>
+        <div class="sec2-content">
+          <div class="sec2-content-header">14 triệu</div>
+          <div class="sec2-content-text">trẻ em suy dinh dưỡng</div>
+          <!-- <div class="sec2-btn grow">Chương Trình</div>   -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="sec3">
+  <div class="upper">
+    <div class="sec-header">ĐỜI SỐNG - SỨC KHỎE</div>
+    <div class="sec-sologan">
+      Chương trình gây quỹ từ thiện "Vì một niềm tin về hạnh phúc" "Vì một niềm
+      tin về hạnh phúc"
+    </div>
+  </div>
+  <div class="sec3-content">
+    <div class="row flex-st">
+      <div class="col-3">
+        <div class="sec3-img grow">
+          <a href="/news/<%= result[0].id %> ">
+            <img src="<%= result[0].thumb_nail %> " alt="anh 1" />
+            <div class="sec3-img-hover">
+              <div class="sec3-img-header"><%= result[0].header %></div>
+              <div class="sec3-img-content">
+                <div class="row">
+                  <div class="sec3-like">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    Theresa webb like this
+                  </div>
+                  <div class="sec3-cmt">
+                    <i class="fa-regular fa-message"></i>
+                    1 comment
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="sec3-lower">
+          <a href="/news/<%= result[0].id %> ">
+            <div class="sec3-header grow"><%= result[0].header %></div>
+          </a>
+          <div class="sec3-text"><%= result[0].preview_text %></div>
+          <a href="/news/<%= result[0].id %> ">
+            <div class="sec3-btn grow">See more...</div>
+          </a>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="sec3-img grow">
+          <a href="/news/<%= result[7].id %> ">
+            <img src="<%= result[7].thumb_nail %> " alt="anh 2" />
+            <div class="sec3-img-hover">
+              <div class="sec3-img-header"><%= result[7].header %></div>
+              <div class="sec3-img-content">
+                <div class="row">
+                  <div class="sec3-like">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    Theresa webb like this
+                  </div>
+                  <div class="sec3-cmt">
+                    <i class="fa-regular fa-message"></i>
+                    1 comment
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="sec3-lower">
+          <a href="/news/<%= result[7].id %> ">
+            <div class="sec3-header grow"><%= result[7].header %></div>
+          </a>
+          <div class="sec3-text"><%= result[7].preview_text %></div>
+          <a href="/news/<%= result[7].id %> ">
+            <div class="sec3-btn grow">See more...</div>
+          </a>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="sec3-img grow">
+          <a href="/news/<%= result[4].id %> ">
+            <img src="<%= result[4].thumb_nail %> " alt="anh 3" />
+            <div class="sec3-img-hover">
+              <div class="sec3-img-header"><%= result[4].header %></div>
+              <div class="sec3-img-content">
+                <div class="row">
+                  <div class="sec3-like">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    Theresa webb like this
+                  </div>
+                  <div class="sec3-cmt">
+                    <i class="fa-regular fa-message"></i>
+                    1 comment
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="sec3-lower">
+          <a href="/news/<%= result[4].id %> ">
+            <div class="sec3-header grow"><%= result[4].header %></div>
+          </a>
+          <div class="sec3-text"><%= result[4].preview_text %></div>
+          <a href="/news/<%= result[4].id %> ">
+            <div class="sec3-btn grow">See more...</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="sec4 p-30">
+  <div class="row">
+    <div class="col-2 p-20">
+      <div class="sec4-header">Các Địa Điểm Phân Phát Lương Thực</div>
+      <div class="sec4-place grow">
+        <i class="fa-solid fa-arrow-right"></i>
+        625 Nguyễn Đình Chiểu, P.2, Q.3 - Liên hệ chị Su 0931 211 003
+      </div>
+      <div class="sec4-place grow">
+        <i class="fa-solid fa-arrow-right"></i> 492/1 Nguyễn Thị Minh Khai, P.2,
+        Q.3 - Liên hệ chị Thìn 0914 247 880
+      </div>
+      <div class="sec4-place grow">
+        <i class="fa-solid fa-arrow-right"></i> 19 Trương Quốc Dung, P.8, Q.Phú
+        Nhuận - Liên hệ chị Thy 0908 899 795
+      </div>
+      <div class="sec4-place grow">
+        <i class="fa-solid fa-arrow-right"></i> 76/29 Thống Nhất, P.10, Q.Gò Vấp
+        - Liên hệ chị San 0987 242 859
+      </div>
+      <div class="sec4-place grow">
+        <i class="fa-solid fa-arrow-right"></i> 377 Tân Hương, P.Tân Quý, Q.Tân
+        Phú - Liên hệ chị Miều 0866 638 140
+      </div>
+      <div class="sec4-place grow">
+        <i class="fa-solid fa-arrow-right"></i> 78 Đặng Văn Bi, P.Bình Thọ,
+        TP.Thủ Đức - Liên hệ chị Trang 0934 163 286
+      </div>
+      <div class="sec4-place grow">
+        <i class="fa-solid fa-arrow-right"></i> Dòng Đa Minh Tam Hiệp Sài Gòn -
+        377/22 Lê Quang Định, P.5, Bình Thạnh
+      </div>
+      <div class="sec4-place grow">
+        <i class="fa-solid fa-arrow-right"></i> Siêu thị 0đ: Số 1 Nguyễn Trung
+        Trực, P.Bến Thành, Q.1
+      </div>
+      <div class="sec4-place grow">
+        <i class="fa-solid fa-arrow-right"></i> Quỹ từ thiện Bông Sen: 17A Trần
+        Đình Xu, P.Cầu Kho, Q.1
+      </div>
+      <div class="sec4-place grow">
+        <i class="fa-solid fa-arrow-right"></i> Nhà thờ Mai Khôi : 40 Tú Sương,
+        Q.3
+      </div>
+      <div class="sec4-place grow">
+        <i class="fa-solid fa-arrow-right"></i> Siêu Thị 0đ: 119 Bình Phúc,
+        P.11, Q.6
+      </div>
+    </div>
+    <div class="col-2 p-20">
+      <div class="sec4-img">
+        <img src="/img/sec4-img.png" alt="phat luong" />
+      </div>
+    </div>
+  </div>
+</section>
+<section class="sec5 p-30">
+  <div class="sec5-header">
+    Những Bữa Ăn Được Biếu Tặng Cho Những Ai Khó Khăn:
+  </div>
+  <div class="sec5-content">
+    <div class="row">
+      <div class="col-2 grow">
+        Dòng Đa Minh Tam Hiệp Sài Gòn - 377/22 Lê Quang Định, P.5, Bình Thạnh
+      </div>
+      <div class="col-2 grow">
+        Quỹ từ thiện Bông Sen: 17A Trần Đình Xu, P.Cầu Kho, Q.1
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2 grow">
+        Siêu thị 0đ: Số 1 Nguyễn Trung Trực, P.Bến Thành, Q.1
+      </div>
+      <div class="col-2">Nhà thờ Mai Khôi : 40 Tú Sương, Q.3</div>
+    </div>
+  </div>
+</section>
+
+<section class="sec8 row mb-30">
+  <div class="sec8-content col-2">
+    <div class="sec8-header pb-30">Vậy Zero Hunger là gì?</div>
+    <div class="zero-hunger-icon grow">
+      <a href="https://www.globalgoals.org/goals/2-zero-hunger/">
+        <img src="/img/sec8-1-img.png" alt="" />
+      </a>
+    </div>
+  </div>
+  <div class="sec8-img col-2 p-20 pos-re">
+    <img src="/img/sec8-img.png" alt="" />
+    <div class="pos-ab c-white img-text">Who are we?</div>
+  </div>
+</section>
+<section class="sec9">
+  <div class="row">
+    <div class="col-6 grow"><img src="/img/sec9-img1.png" alt="" /></div>
+    <div class="col-6 grow"><img src="/img/sec9-img2.png" alt="" /></div>
+    <div class="col-6 grow"><img src="/img/sec9-img3.png" alt="" /></div>
+    <div class="col-6 grow"><img src="/img/sec9-img4.png" alt="" /></div>
+    <div class="col-6 grow"><img src="/img/sec9-img5.png" alt="" /></div>
+    <div class="col-6 grow"><img src="/img/sec9-img6.png" alt="" /></div>
+  </div>
+  <div class="row">
+    <div class="col-6 grow"><img src="/img/sec9-img7.png" alt="" /></div>
+    <div class="col-6 grow"><img src="/img/sec9-img8.png" alt="" /></div>
+    <div class="col-6 grow"><img src="/img/sec9-img9.png" alt="" /></div>
+    <div class="col-6 grow"><img src="/img/sec9-img10.png" alt="" /></div>
+    <div class="col-6 grow"><img src="/img/sec9-img11.png" alt="" /></div>
+    <div class="col-6 grow"><img src="/img/sec9-img12.png" alt="" /></div>
+  </div>
+</section>
+<%- include('./partials/footer.ejs') %>
